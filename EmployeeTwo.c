@@ -36,7 +36,7 @@ static int compareEmployeePhone(const void *targetPtr, PtrToConstEmployee tableV
 
 static int compareEmployeeSalary(const void *targetPtr, PtrToConstEmployee tableValuePtr)
 {
-    return *(double *) targetPtr != tableValuePtr -> salary; //const void *targetPtr ==> typecast as int pointer
+    return *(double *) targetPtr != tableValuePtr -> salary; //const void *targetPtr ==> typecast as double pointer
 }
 
 //Wrappers
