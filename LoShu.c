@@ -53,6 +53,8 @@ void main(){
 
     printf("Square 1:\n");
     printSquare(square);
+
+    //Checks if square is a magic square
     if (isMagicSquare(square) == 8){
         printf("This square is a magic square!\n");
     }
@@ -61,6 +63,8 @@ void main(){
 
     printf("\n");
     printf("Square 2:\n");
+
+    //Checks if square is a magic square
     printSquare(square2);
     if (isMagicSquare(square2) == 8){
         printf("This square is a magic square!\n");
@@ -98,6 +102,8 @@ void main(){
     printf("\n");
     printf("Square 3 (Randomly generated square):\n");
     printSquare(square3);
+
+    //Checks if square is a magic square
     if (isMagicSquare(square3) == 8){
         printf("This square is a magic square!\n");
     }
